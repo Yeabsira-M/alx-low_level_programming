@@ -2,7 +2,6 @@
 #include <stdlib.h>
 
 /**
- *
  * main - returns alphabets bot loerw and upper c
  *
  * Return: Always 0 (Success)
