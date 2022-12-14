@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * print_to_98 - prints all natural nums 
- * @n: the num to begin printting from
+ * print_to_98 - Prints all natural nums 
+ * @n: The num to begin printting from
  * Return: Always 0.
  */
 
@@ -36,7 +36,8 @@ void print_to_98(int n)
 				printf("\n");
 				break;
 			}
-			else {
+			else 
+			{
 				printf("%d, ", n);
 			}
 		}
