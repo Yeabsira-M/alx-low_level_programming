@@ -2,16 +2,25 @@
 
 /**
  * _isupper - uppercase letter
- * @c: char to be checked
+ * @ch: char to be checked
  *
  * Return: 0 or 1
  */
-int  _isupper(int c)
+int  _isupper(int ch)
 {
-	if (c >= 'A' && c <= 'z')
+	char ch;
+
+	if (ch >= 'A' && ch <= 'Z')
 	{
-		return (1);
+		printf("'%c' is uppercase alphabet.", ch);
 	}
+	 else if (ch >= 'a' && ch <= 'z')
+	 {
+		 printf("'%c' is lowercase alphabet.", ch);
+	 }
 	else
-		return (0);
+	{
+		printf("'%c' is not an alphabet.", ch);
+	}
+	return (0);
 }
