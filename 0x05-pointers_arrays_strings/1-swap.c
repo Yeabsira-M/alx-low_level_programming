@@ -2,15 +2,15 @@
 
 /**
  * swap_int - swap value of given integers
- * @x: number 1
- * @y: number 2
+ * @a: number 1
+ * @b: number 2
  * num: temporary variable
  */
-void swap_int(int *x, int *y)
+void swap_int(int *a, int *b)
 {
 	int num;
 
-	num = *x;
-	*x = *y;
-	*y = num;
+	num = *a;
+	*a = *b;
+	*b = num;
 }

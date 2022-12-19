@@ -3,17 +3,16 @@
 
 /**
  * _strlen - function to find length of string
- *  @c: string pointer
- * @length: string length
+ * @s: string pointer
  * Return: returns string length
  */
-int _strlen(char *c)
+int _strlen(char *s)
 {
-	int length;
+	int len;
 
 	for ( ; *c != '\0\; c++)
 	{
-		length += 1;
+		len += 1;
 	}
-	return (l);
+	return (len);
 }
